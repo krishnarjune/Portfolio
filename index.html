@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Jessica Showers Portfolio" content="Projects and Career Information.">
+	<meta name="keywords" content="HTML, CSS, Webpage Development, Software Engineering">
+	<meta name="author" content="Jessica Showers">
+<title>
+Portfolio: Jessica Showers
+</title>
+<link rel="stylesheet" type="text/css" href="ShowersJessicaStylesheet.css">
+</head>
+
+<body>
+
+<div style="padding-top: 40px;"></div>
+
+<div class="topnav">
+	<a href="index.html" class="button">Home</a>
+	<a href="WebDevelopment.html" class="button">Web Development</a>
+	<a href="Scripting.html" class="button">Scripting</a>
+	<a href="MachineLearning.html" class="button">Future Goals</a>
+	<a href="ContactMe.html" class="button">Contact Me</a>
+</div>
+
+
+<h1> Jessica Showers Programming Portfolio</h1>
+
+<img class="profile" src="Images/ProfilePicture.jpg" alt="Profile Picture">
+
+<h2> Web Development, Scripting, Software Development <br><br>
+</h2>
+
+<table class="center1">
+<tr>
+<th style="color: #695271; padding: 10px; font-size: 25px; background-color: #cca5d9; border:2px solid#695271;">
+Countdown to Graduation!
+</th>
+</tr>
+<tr><td class="center" style="padding: 25px">
+<p class="graduation" id="GraduationDate"></p>
+</td></tr></table>
+
+<script>
+var countDownDate = new Date("Dec 30, 2019 23:59:00").getTime();
+var x = setInterval(function() {
+
+   
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("GraduationDate").innerHTML =  days + "d " + hours + "h " 
+    + minutes + "m " + seconds + "s ";
+    
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("GraduationDate").innerHTML = "Graduated: BS Information Technology American Public University";
+    }
+}, 1000);
+</script>
+
+ <div style="padding-top: 80px;"></div>
+
+
+
+
+<table class="center1">
+<tr>
+	<th style="color: #695271; padding: 5px; font-size: 25px; background-color: #cca5d9; border:2px solid#695271;">
+	Experienced
+	</th>
+
+	<th style="color: #695271; padding: 5px; font-size: 25px; background-color: #cca5d9; border:2px solid#695271;">
+	Intermediate
+	</th>
+
+	<th style="color: #695271; padding: 5px; font-size: 25px; background-color: #cca5d9; border:2px solid#695271;">
+	Beginner
+	</th>
+</tr>
+
+<tr>
+	<td style="width: 400px" class="center">
+	<img class="Icon" src="Images/HTML5.png" alt="HTML5 Icon">
+	<img class="Icon" src="Images/CSS3.png" alt="CSS3 Icon">
+	</td>
+	
+	<td style="width:400px" class="center">
+	<img class="Icon" src="Images/Python.png" alt="Python Icon">
+	<img class="Icon" src="Images/PowerShell.png" alt="PowerShell Icon">
+	</td>
+	
+	<td style="width: 400px" class="center">
+	<img class="Icon" style="padding: 10px" src="Images/SQL.png" alt="SQL Icon">
+	<img class="Icon" style="padding: 10px" src="Images/VBScript.png" alt="VBScript Icon">
+	<img class="Icon" style="padding: 10px" src="Images/NodeJS.png" alt="Node.JS Icon">
+	<img class="Icon" style="padding: 10px" src="Images/Javascript.png" alt="Javascript Icon">
+	<img class="Icon" style="padding: 10px" src="Images/WSH.png" alt="WSH Icon">
+	</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+<div style="padding-top: 40px;"></div>
+</body>
+</html>

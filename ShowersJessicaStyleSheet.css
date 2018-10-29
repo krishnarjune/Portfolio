@@ -1,0 +1,146 @@
+body {
+    background-color: #eaddee;
+}
+
+
+
+.topnav {
+	background-color: #e5dcff;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 40px;
+	padding: 10px;
+		box-shadow: 
+    	0 0 5px 10px #695271,
+    	0 0 10px 15px #cca5d9,
+    	0 0 15px 20px #D4C2DA;
+	
+}
+
+.topnav a{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #695271;
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover{
+	color:#9B40D0;
+	background-color: #D4C2DA;
+	border-radius: 20px;
+}
+
+.topnav a.active{
+	background-color: black;
+	color: white;
+}
+
+.button {
+	background-color:#cca5d9;
+	border:#ff0000;
+	color: white;
+	padding:5px 15px;
+	text-align:center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius:30px
+	}
+
+h1 {
+	color: #695271;
+	font-size: 60px;
+	padding-top: 75px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+h2 {
+	color: #695271;
+	font-size: 26px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+img.Icon {
+	width: 55px;
+	height: 55px;
+}
+
+table.center1 {
+	margin: auto;
+	background-color:#e5dcff;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 
+    	0 0 5px 10px #695271,
+    	0 0 10px 15px #cca5d9,
+    	0 0 15px 20px #D4C2DA;
+}
+
+
+
+td.center {
+	text-align: center;
+	padding: 10px;
+	background-color: #D4C2DA;
+	border:2px solid#695271;
+	color: #695271;
+}
+
+td.left {
+	text-align: left;
+	padding-left: 42%;
+	background-color: #D4C2DA;
+	border:2px solid#695271;
+	color: #695271;
+}
+
+p.graduation {
+	height: 10px;
+	background-color:#e5dcff;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 
+    	0 0 5px 10px #695271,
+    	0 0 10px 15px #cca5d9,
+    	0 0 15px 20px #D4C2DA;
+}
+
+img.profile {
+	width: 135px;
+	height: 175px;
+	border-radius: 60px;
+	margin-left: 46%;
+	box-shadow: 
+    	0 0 5px 10px #695271,
+    	0 0 10px 15px #cca5d9,
+    	0 0 15px 20px #D4C2DA;
+}
+
+span.boldtext{
+	font-weight:bold;
+}
+	
+form.form1 {
+	margin: auto;
+	text-align: Center;
+}
+
+
+img.alert {
+	width: 100px;
+	height: 100px;
+}
+
+
+	
+
