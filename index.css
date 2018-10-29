@@ -147,6 +147,8 @@ img.alert {
   zoom: 1.0 ;
 }
 
-
+@media screen and (min-width:320px) and (max-width:640px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+}
 	
 
