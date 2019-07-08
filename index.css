@@ -1,7 +1,89 @@
 body {
-    background-color: #eaddee;
+    background-image: linear-gradient(#8b7097, #eeeeee, #8b7097);
 }
 
+div.line {
+  width: 35px;
+  height: 5px;
+  background-color: #e5dcff;
+  margin: 6px 0;
+}
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  width: 5%;
+  background-color: rgba(0,0,0,0);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: rgba(0.0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a transparent background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0.0);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0.0);
+  min-width: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #54375C;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #F6E7FA;
+  opacity: .6;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 .topnav {
@@ -10,12 +92,12 @@ body {
 	width: 50%;
 	margin: auto;
 	overflow: hidden;
-	border-radius: 40px;
+	border-radius: 10px;
 	padding: 10px;
 		box-shadow: 
-    	0 0 5px 10px #695271,
-    	0 0 10px 15px #cca5d9,
-    	0 0 15px 20px #D4C2DA;
+    	0 0 5px 7px #695271,
+    	0 0 10px 20px #cca5d9,
+    	0 0 15px 25px #D4C2DA;
 	
 }
 
@@ -48,13 +130,12 @@ body {
 	text-align:center;
 	display: inline-block;
 	font-size: 16px;
-	border-radius:30px
+	border-radius:10px
 	}
 
 h1 {
 	color: #695271;
 	font-size: 60px;
-	padding-top: 75px;
 	padding-bottom: 5px;
 	text-align: center;
 }
@@ -71,6 +152,12 @@ img.Icon {
 	height: 55px;
 }
 
+img.Icon1 {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
 table.center1 {
 	margin: auto;
 	background-color:#e5dcff;
@@ -84,6 +171,16 @@ table.center1 {
     	0 0 15px 20px #D4C2DA;
 }
 
+table.center2 {
+	margin: auto;
+	background-color: rgba(0,0,0,0);
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-radius: 15px;
+	padding: 4px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 
 
 td.center {
@@ -91,6 +188,14 @@ td.center {
 	padding: 10px;
 	background-color: #D4C2DA;
 	border:2px solid#695271;
+	color: #695271;
+}
+
+td.center1 {
+	text-align: center;
+	padding: 4px;
+	background-color: rgba(0,0,0,0);
+	border:2px rgba(0,0,0,0.2);
 	color: #695271;
 }
 
