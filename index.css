@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(#8b7097, #eeeeee, #8b7097);
+    background-attachment: fixed;
 }
 
 div.line {
